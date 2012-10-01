@@ -1,64 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.094" errors="0" skipped="0" tests="1" name="com.TableFlip.SpaceTrader.AppTest">
+<testsuite failures="0" time="0.039" errors="0" skipped="0" tests="1" name="com.TableFlip.SpaceTrader.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_06\jre\bin"/>
-    <property name="java.vm.version" value="23.2-b09"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.10-b01-428"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M3811"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\kpalmer\Documents\Fall Semester 2012\CS 2340\Space-Trader"/>
-    <property name="java.runtime.version" value="1.7.0_06-b24"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_06\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\kpalmer\AppData\Local\Temp\"/>
+    <property name="user.dir" value="/Users/DelRosario/Documents/CS2340/fork/Space-Trader"/>
+    <property name="java.runtime.version" value="1.6.0_35-b10-428-11M3811"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/DelRosario/Documents/CS2340/fork/Space-Trader"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/DelRosario/Documents/CS2340/fork/Space-Trader/target/surefire/surefirebooter4652743898045039457.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/px/ln858wc553761wfnd3bdxq040000gn/T/"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.0.4\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_06\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\apache-maven-3.0.4\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\EgisTec MyWinLocker\x64;C:\Program Files (x86)\EgisTec MyWinLocker\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\cmd;."/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/DelRosario/Documents/CS2340/fork/Space-Trader/target/test-classes:/Users/DelRosario/Documents/CS2340/fork/Space-Trader/target/classes:/Users/DelRosario/.m2/repository/com/intellij/forms_rt/6.0.5/forms_rt-6.0.5.jar:/Users/DelRosario/.m2/repository/asm/asm-commons/2.2.3/asm-commons-2.2.3.jar:/Users/DelRosario/.m2/repository/asm/asm-tree/2.2.3/asm-tree-2.2.3.jar:/Users/DelRosario/.m2/repository/asm/asm/2.2.3/asm-2.2.3.jar:/Users/DelRosario/.m2/repository/com/jgoodies/forms/1.0.7/forms-1.0.7.jar:/Users/DelRosario/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/Users/DelRosario/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="51.0"/>
+    <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.1"/>
-    <property name="user.home" value="C:\Users\kpalmer"/>
-    <property name="user.timezone" value="America/New_York"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.7"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="kpalmer"/>
-    <property name="java.class.path" value="C:\Program Files\apache-maven-3.0.4\boot\plexus-classworlds-2.4.jar"/>
-    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="os.version" value="10.7.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/DelRosario"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="DelRosario"/>
+    <property name="java.class.path" value="/Users/DelRosario/Documents/CS2340/fork/Space-Trader/target/test-classes:/Users/DelRosario/Documents/CS2340/fork/Space-Trader/target/classes:/Users/DelRosario/.m2/repository/com/intellij/forms_rt/6.0.5/forms_rt-6.0.5.jar:/Users/DelRosario/.m2/repository/asm/asm-commons/2.2.3/asm-commons-2.2.3.jar:/Users/DelRosario/.m2/repository/asm/asm-tree/2.2.3/asm-tree-2.2.3.jar:/Users/DelRosario/.m2/repository/asm/asm/2.2.3/asm-2.2.3.jar:/Users/DelRosario/.m2/repository/com/jgoodies/forms/1.0.7/forms-1.0.7.jar:/Users/DelRosario/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/Users/DelRosario/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_06\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/DelRosario/Documents/CS2340/fork/Space-Trader/target/surefire/surefirebooter4652743898045039457.jar /Users/DelRosario/Documents/CS2340/fork/Space-Trader/target/surefire/surefire4134835965745615529tmp /Users/DelRosario/Documents/CS2340/fork/Space-Trader/target/surefire/surefire4556397578814417721tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.7.0_06"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_06\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_06\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_06\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_06\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_06\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_06\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_06\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_06\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_06\jre\classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\apache-maven-3.0.4"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.version" value="1.6.0_35"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/DelRosario/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="mrj.version" value="1070.1.6.0_35-428"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0" classname="com.TableFlip.SpaceTrader.AppTest" name="testApp"/>
+  <testcase time="0.001" classname="com.TableFlip.SpaceTrader.AppTest" name="testApp"/>
 </testsuite>
